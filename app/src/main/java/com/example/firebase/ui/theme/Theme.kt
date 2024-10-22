@@ -1,4 +1,4 @@
-package com.example.firebase.ui.theme
+package com.example.logeofirebase.ui.theme
 
 import android.app.Activity
 import android.os.Build
@@ -34,7 +34,7 @@ private val LightColorScheme = lightColorScheme(
 )
 
 @Composable
-fun FirebaseTheme(
+fun LogeoFirebaseTheme(
     darkTheme: Boolean = isSystemInDarkTheme(),
     // Dynamic color is available on Android 12+
     dynamicColor: Boolean = true,
